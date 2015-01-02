@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Restaurant Reservations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Thu Jul 17 2014 15:43:57 GMT+0100 (GMT Daylight Time)\n"
-"PO-Revision-Date: Thu Jan 01 2015 22:03:05 GMT+0100\n"
+"PO-Revision-Date: Fri Jan 02 2015 08:26:11 GMT+0100\n"
 "Last-Translator: admin <andi@scuderiagrischa.ch>\n"
 "Language-Team: \n"
 "Language: German\n"
@@ -188,115 +188,121 @@ msgstr "&mdash;"
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:82
 msgctxt "separates latitude and longitude"
 msgid ", "
-msgstr ""
+msgstr ","
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:83
 msgid "No map coordinates set."
-msgstr ""
+msgstr "Keine Koordinaten definiert."
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:84
 msgid "Requesting new coordinates"
-msgstr ""
+msgstr "Neue Kordinaten eingeben"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:85
 msgid "Select a match below"
-msgstr ""
+msgstr "Wählen Sie ein Suchergebnis aus"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:86
 msgid "View"
-msgstr ""
+msgstr "Ansehen"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:87
 msgid "Retrieve map coordinates"
-msgstr ""
+msgstr "Koordinaten laden"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:88
 msgid "Remove map coordinates"
-msgstr ""
+msgstr "Koordinaten entfernen"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:89
 msgid "Try again?"
-msgstr ""
+msgstr "Nochmals?"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:90
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:91
 msgid ""
 "Invalid request. Be sure to fill out the address field before retrieving "
 "coordinates."
 msgstr ""
+"Ungültige Anfrage. Bitte füllen Sie das Adressfeld aus, bevor Sie die "
+"Koordinaten anfragen."
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:92
 msgid "Request denied."
-msgstr ""
+msgstr "Anfrage abgelehnt."
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:93
 msgid "Request denied because you are over your request quota."
-msgstr ""
+msgstr "Die Anfrage wurde abgelehnt weil Sie über Ihrem Anfragelimit sind."
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:94
 msgid "Nothing was found at that address"
-msgstr ""
+msgstr "Unter dieser Adresse wurde nichts gefunden"
 
 #: ../lib/simple-admin-pages/classes/AdminPageSetting.Address.class.php:126
 msgctxt "separator between admin action links in address component"
 msgid " | "
-msgstr ""
+msgstr "| "
 
 #: ../includes/Addons.class.php:89
 msgid "Loading"
-msgstr ""
+msgstr "Lade ..."
 
 #: ../includes/Addons.class.php:90
 msgctxt "Error message when retrieving list of addons"
 msgid "An unknown error occured."
-msgstr ""
+msgstr "Ein unbekannter Fehler beim Lader der Liste der Erweiterungen ist aufgetreten"
 
 #: ../includes/Addons.class.php:91
 msgctxt "Label for an addon that is already installed and activated."
 msgid "Already Installed"
-msgstr ""
+msgstr "Die Erweiterung ist schon installiert"
 
 #: ../includes/Addons.class.php:92
 msgctxt "Label for an addon that is not yet released."
 msgid "Coming Soon"
-msgstr ""
+msgstr "Diese Erweiterung wird bald freigegeben"
 
 #: ../includes/Addons.class.php:93
 msgctxt "Label for an addon that is free."
 msgid "Free"
-msgstr ""
+msgstr "Diese Erweiterung ist kostenfrei"
 
 #: ../includes/Addons.class.php:94
 msgctxt "Label for an addon that is released."
 msgid "Get It"
 msgstr ""
+"Diese Erweiterung ist verfügbar\n"
+"\n"
 
 #: ../includes/Addons.class.php:108
 msgctxt "Title of addons page"
 msgid "Addons"
-msgstr ""
+msgstr "Erweiterungen"
 
 #: ../includes/Addons.class.php:109
 msgctxt "Title of addons page in the admin menu"
 msgid "Addons"
-msgstr ""
+msgstr "Erweiterungen"
 
 #: ../includes/Addons.class.php:126
 msgid "Addons for Restaurant Reservations"
-msgstr ""
+msgstr "Erweiterungen zu Tischreservationen"
 
 #: ../includes/Addons.class.php:148
 msgid "You have been logged out. Please login again to retrieve the addons."
-msgstr ""
+msgstr "Sie wurden abgemeldet. Bitte melden Sie sich an um Erweiterungen zu laden."
 
 #: ../includes/Addons.class.php:164
 msgid ""
 "You do not have permission to access this page. Please login to an "
 "administrator account if you have one."
 msgstr ""
+"Sie haben keine Zugriffrechte auf diese Seite. Bitte melden Sie sich mit "
+"einem Adminstratorenkonto ein."
 
 #: ../includes/Addons.class.php:190
 msgid ""
@@ -305,6 +311,11 @@ msgid ""
 "//wordpress.org/support/plugin/restaurant-reservations\" "
 "target=\"_blank\">support forums</a>."
 msgstr ""
+"The addons list could not be retrieved. Please <a href=\"\">try \n"
+"again</a>. If the problem persists over time, please report it on \n"
+"the <a \n"
+"href=\"http://wordpress.org/support/plugin/restaurant-reservations\" \n"
+"target=\"_blank\">support forums</a>."
 
 #: ../includes/Notification.class.php:88
 msgid "View pending bookings"
@@ -361,7 +372,7 @@ msgstr "Meldung"
 
 #: ../includes/template-functions.php:170
 msgid "Request Booking"
-msgstr "Eine Anfrage für eine Tischreservation"
+msgstr "Anfrage absenden"
 
 #: ../includes/CustomPostTypes.class.php:38 ../includes/CustomPostTypes.class.php:
 #: 40 ../includes/CustomPostTypes.class.php:41 ../includes/WP_List_Table.
@@ -937,7 +948,7 @@ msgstr "Kurzfristige Tischreservationen"
 
 #: ../includes/Settings.class.php:394
 msgid "Select how late customers can make their booking."
-msgstr "Wählen sie kurzfristig Gaste noch einen Tisch reservieren können."
+msgstr "Wählen Sie wie kurzfristig Gaste noch einen Tisch reservieren können."
 
 #: ../includes/Settings.class.php:397
 msgid "Up to the last minute"
@@ -981,11 +992,11 @@ msgstr ""
 
 #: ../includes/Settings.class.php:418
 msgid "Select today if valid"
-msgstr ""
+msgstr "Wählen Sie heute sofern dies gültig ist."
 
 #: ../includes/Settings.class.php:419
 msgid "Select today or next valid date"
-msgstr ""
+msgstr "Wählen Sie heute oder das nächste gültige Datum aus"
 
 #: ../includes/Settings.class.php:420
 msgid "Leave empty"
@@ -1028,6 +1039,8 @@ msgid ""
 "The name which should appear in the Reply-To field of a user notification "
 "email"
 msgstr ""
+"Der Name die im Rückantwortfeld einer Benachrichtigungs-Email an einen Gast "
+"erscheinen soll."
 
 #: ../includes/Settings.class.php:470
 msgid "Reply-To Email Address"
@@ -1038,6 +1051,8 @@ msgid ""
 "The email address which should appear in the Reply-To field of a user "
 "notification email."
 msgstr ""
+"Email Adresse die im Rückantwortfeld einer Benachrichtigungs-Email an einen "
+"Gast erscheinen soll."
 
 #: ../includes/Settings.class.php:482
 msgid "Admin Notification"
@@ -1073,6 +1088,9 @@ msgid ""
 "emails. Tags labeled with an asterisk (*) can be used in the email subject "
 "as well."
 msgstr ""
+"Verwenden Sie die nachfolgenden Tag um Reservationsinformationen den Emails "
+"hinzuzufügen. Tages die mit einem Stern (*) bezeichnet sind können auch in "
+"der Betreffzeile verwendet werden."
 
 #: ../includes/Settings.class.php:528
 msgid "Admin Notification Subject"
@@ -1160,19 +1178,19 @@ msgstr ""
 
 #: ../includes/Settings.class.php:631
 msgid "Email of the user who made the booking"
-msgstr ""
+msgstr "* Email an den Gast der die Reservation gemacht hat"
 
 #: ../includes/Settings.class.php:632
 msgid "* Name of the user who made the booking"
-msgstr ""
+msgstr "* Name auf den der Tisch reserviert ist"
 
 #: ../includes/Settings.class.php:633
 msgid "* Number of people booked"
-msgstr ""
+msgstr "* Anzahl der Gäste"
 
 #: ../includes/Settings.class.php:634
 msgid "* Date and time of the booking"
-msgstr ""
+msgstr "* Datum und Zeit der Tischreservation"
 
 #: ../includes/Settings.class.php:635
 msgid "Phone number if supplied with the request"
