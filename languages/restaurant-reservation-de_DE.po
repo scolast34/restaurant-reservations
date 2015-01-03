@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Restaurant Reservations 1.2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-02 18:32:51+00:00\n"
-"PO-Revision-Date: Fri Jan 02 2015 21:15:32 GMT+0100\n"
+"PO-Revision-Date: Sat Jan 03 2015 09:43:57 GMT+0100\n"
 "Last-Translator: admin <andi@scuderiagrischa.ch>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: German\n"
@@ -78,15 +78,15 @@ msgstr "Schliessen"
 
 #: includes/AdminBookings.class.php:191
 msgid "Booking Status"
-msgstr "Status"
+msgstr "Status der Tischreservation"
 
 #: includes/AdminBookings.class.php:199
 msgid "Send notifications"
-msgstr "Benachrichtigung versenden"
+msgstr "Benachrichtigunen versenden"
 
 #: includes/AdminBookings.class.php:204
 msgid "Learn more"
-msgstr "Mehr Informationen"
+msgstr "mehr Infromatioenen"
 
 #: includes/AdminBookings.class.php:205
 msgid ""
@@ -94,14 +94,14 @@ msgid ""
 "email notifications will be sent. Check this option if you want to send "
 "email notifications."
 msgstr ""
-"Wenn Sie eine Tischreservation hinzufügen oder ihren Status in diesem "
-"Formular verändern wird keine Email Benachrichtigung versandt. Wählen sie "
-"diese Option an falls Sie Email Benachrichtigungen versenden wollen."
+"Es werden keine Email Benachrichtigungen bei neuen Tischreservationen oder "
+"Statusänderungen innerhalb dieses Formulars versandt. Wählen Sie diese "
+"Option an, falls sie doch Email Benachrichtigungen versenden wollen."
 
 #: includes/AdminBookings.class.php:259
 #, c-format
 msgid "You have been logged out. Please %slogin again%s."
-msgstr "Sie sind abgemeldert worden Bitte %smelden Sie& sich wieder an."
+msgstr "Sie wurden abgemeldet. Bitte %smelden%s Sie sich wieder an."
 
 #: includes/AdminBookings.class.php:295
 #, c-format
@@ -109,25 +109,24 @@ msgid ""
 "This booking has been sent to the %sTrash%s where it can not be edited. Set "
 "the booking to Pending or Confirmed to edit it."
 msgstr ""
-"Diese Tischreservation wurde in den s%Papierkorb&s verschoben und kann darum "
-"nicht bearbeitet werden. Bitte setzten Sie die Tischreservation auf "
-"\"Pendent\" oder \"Bestätigt\" um sie bearbeiten zu können."
+"Diese Tischreserversion wurde in den Papierkorb verschoben. Darum kann sie "
+"nicht bearbeitet werden. Bitte setzten Sie den Status auf \"Pendent\" oder "
+"\"Bestätigt\" um sie bearbeiten zu können."
 
 #: includes/AdminBookings.class.php:312
 msgid "The booking could not be retrieved. Please reload the page and try again."
 msgstr ""
-"Die Tischreservation konnte nicht gefunden werden. Bitte versuchen Sie es "
-"erneut. Falls Sie dann immer noch ein Problem haben, so laden Sie bitte die "
-"Seite erneut."
+"Ihre Tischreservation konnte nicht geladen werden. Bitte laden Sie die Seite "
+"neu und versuchen Sie es noch einmal."
 
 #: includes/AdminBookings.class.php:377
 msgid ""
 "Unable to trash this post. Please try again. If you continue to have trouble,"
 " please refresh the page."
 msgstr ""
-"Es war nicht mögich diesen Eintrag in den Papierkorb zu verschienben. Bitte "
-"versuchen Sie es erneut. Falls Sie dann immer noch ein Problem haben, so "
-"laden Sie bitte die Seite erneut."
+"Dieser Eintrag konnte nicht in den Papierkorb verschoben werden. Bitte "
+"versuchen Sie es nocheinmal. Falls Sie dann immer noch Probleme haben, laden "
+"Sie die Seite neu."
 
 #: includes/Booking.class.php:178
 msgid "Please enter the date you would like to book."
@@ -227,8 +226,8 @@ msgstr ""
 #: includes/Booking.class.php:414
 msgid "Please complete this field to request a booking."
 msgstr ""
-"Bitte füllen Sie dieses Feld vollständig aus um eine "
-"Tischreservationsanfrage abzusenden."
+"Bitte füllen Sie dieses Feld aus um eine Tischreserverationsanfrage "
+"abzusenden."
 
 #: includes/CustomPostTypes.class.php:38 includes/CustomPostTypes.class.php:40
 #: includes/CustomPostTypes.class.php:41
@@ -325,7 +324,7 @@ msgstr "Maximale Anzahl Personen pro Reservation"
 
 #: includes/Settings.class.php:260
 msgid "Set a maximum allowed party size for bookings."
-msgstr "Maximale Anzahl Gäste für diese Tischreservation"
+msgstr "Definieren Sie die maximale Anzahl Gäste für eine Tischreservertion."
 
 #: includes/Settings.class.php:272
 msgid "Success Message"
@@ -346,11 +345,11 @@ msgid ""
 "This only changes the format on the booking form. To change the date format "
 "in notification messages, modify your general %sWordPress Settings%s."
 msgstr ""
-"Definieren Sie wie das Datum im Tischreservationformular formatiert sein "
-"soll. %sFormatierungsregeln%s. Dies ändert nur das Darstellungsformat im "
-"Tischreservationsformular. Um das Datumsformat in den "
-"Benachrichtigungsmeldungen zu ändern. müssen Sie Ihre einer generellen "
-"&%sWordPress Einstellungen%s anpassen.\n"
+"Definieren Sie wie das Datum im Tischreservationsformular formatiert sein "
+"soll. %sFormatierungsregeln%s. Es wird nur das Anzeigeformat im "
+"Tischreservationsformular geändert. Um das Datumsformat in den "
+"Benachrichtigungsmeldungen zu ändern, müssen Sie Ihre generellen %sWordPress "
+"Einstellungen%s entsprechend anpassen."
 
 #: includes/Settings.class.php:296
 msgid "Time Format"
@@ -363,11 +362,11 @@ msgid ""
 "This only changes the format on the booking form. To change the time format "
 "in notification messages, modify your general %sWordPress Settings%s."
 msgstr ""
-"Definieren Sie wie die Zeit im Tischreservationformular formatiert sein\n"
-" soll. %sFormatierungsregeln%s. Dies ändert nur das Darstellungsformat \n"
-"im Tischreservationsformular. Um das Zeitformat in den \n"
-"Benachrichtigungsmeldungen zu ändern. müssen Sie Ihre einer generellen \n"
-"&%sWordPress Einstellungen%s anpassen."
+"Definieren Sie wie die Zeit im Tischreservationsformular formatiert \n"
+"sein soll. %sFormatierungsregeln%s. Es wird nur das Anzeigeformat im \n"
+"Tischreservationsformular geändert. Um das Zeitformat in den \n"
+"Benachrichtigungsmeldungen zu ändern, müssen Sie Ihre generellen \n"
+"%sWordPress Einstellungen%s entsprechend anpassen."
 
 #: includes/Settings.class.php:310
 msgid "Language"
@@ -684,7 +683,7 @@ msgstr ""
 
 #: includes/Settings.class.php:659
 msgid "Any size"
-msgstr "Jede Grösse"
+msgstr "Beliebige Anzahl"
 
 #: includes/Settings.class.php:714
 msgid "Book a table"
@@ -844,7 +843,7 @@ msgstr "Status"
 
 #: includes/WP_List_Table.BookingsTable.class.php:314
 msgid "Edit"
-msgstr "Anpassen"
+msgstr "Bearbeiten"
 
 #: includes/WP_List_Table.BookingsTable.class.php:376
 msgid "Delete"
@@ -899,17 +898,15 @@ msgstr[1] "%d Tischreservationen hatte Fehler und konnte nicht verarbeitet werde
 
 #: includes/WP_List_Table.BookingsTable.class.php:689
 msgid "You're viewing bookings that have been moved to the trash."
-msgstr ""
-"Sie sehen sich Tischreservationen an die in den Papierkorb verschoben worden "
-"sind."
+msgstr "Sie sehen Tischreservationen die in den Papierkübel verschoben worden sind."
 
 #: includes/WP_List_Table.BookingsTable.class.php:698
 msgid "Only today's bookings are being shown."
-msgstr "Nur Tischreservationen für den heutigen Tag werden angezeigt."
+msgstr "Nur Tischreservationen für den heutigen Tag werden angezeicht."
 
 #: includes/WP_List_Table.BookingsTable.class.php:700
 msgid "Only upcoming bookings are being shown."
-msgstr "Nur zukünftige Tischreservationen werden angezeigt."
+msgstr "Nur künftige Tischreservationen werden angezeigt. "
 
 #: includes/WP_Widget.BookingFormWidget.class.php:25
 msgid "Booking Form"
@@ -936,9 +933,9 @@ msgid ""
 "An unspecified error occurred. Please try again. If the problem persists, "
 "try logging out and logging back in."
 msgstr ""
-"Ein nicht spezifizierter Fehler ist aufgetreten. Bitte versuchen Sie es noch "
-"einmal. Falls das Problem dann immer noch besteht, versuchen Sie min Aus - "
-"und wieder Einloggen."
+"Ein nicht spezifizierter Fehler ist aufgetreten. Bitte versuchen Sie es "
+"erneut. Falls das Problem dann immer noch besteht, versuchen Sie es mit Aus- "
+"und Einloggen."
 
 #: restaurant-reservations.php:276
 msgid "View the help documentation for Restaurant Reservations"
@@ -961,7 +958,7 @@ msgstr "http://themeofthecrop.com"
 
 #. Description of the plugin/theme
 msgid "Accept restaurant reservations and bookings online."
-msgstr "Nehmen Sie online Tischreservationen in ihrem Restaurant an."
+msgstr "Nehmen Sie Tischreservationen in Ihrem Restaurant online an.\n"
 
 #. Author of the plugin/theme
 msgid "Theme of the Crop"
@@ -1035,9 +1032,9 @@ msgid ""
 "Thanks, your booking request is waiting to be confirmed. Updates will be "
 "sent to the email address you provided."
 msgstr ""
-"Vielen Dank, Ihre Anfrage ist bei uns in Bearbeitung. Wir werden Ihnen "
-"Aktualisierungen, an die Email Adresse senden die Sie uns angegeben haben, "
-"senden."
+"Vielen Dank. Ihre Tischreservationsanfrage ist bei uns in Bearbeitung. Wir "
+"werden Ihnen Aktualisierungen an die Email Adresse senden die Sie uns "
+"hinterlassen haben."
 
 #: includes/Settings.class.php:84
 msgctxt ""
@@ -1301,7 +1298,7 @@ msgstr "Endzeit"
 #, c-format
 msgctxt "Prompt displayed when a scheduling rule is set without any time restrictions"
 msgid "All day long. Want to %sset a time slot%s?"
-msgstr "Ganztägig. Wollen Sie ein %sZeitdauer%s setzen?"
+msgstr "Ganztägig. Wollen Sie eine %sZeitdauer%s festlegen?"
 
 #: includes/Settings.class.php:340
 msgctxt "Toggle a scheduling rule open and closed"
@@ -1335,7 +1332,7 @@ msgctxt ""
 "be replaced by a comma-separated list of days and weeks in the following "
 "format: M, T, W on the first, second week of the month"
 msgid "%s on the %s week of the month"
-msgstr "%s der %s Woche des Monats"
+msgstr "%s der %s Wochen des Monats"
 
 #: includes/Settings.class.php:346
 #, c-format
@@ -1435,10 +1432,10 @@ msgctxt ""
 "Indicates which booking status is currently being filtered in the list of "
 "bookings."
 msgid "You're viewing bookings that have been marked as %s."
-msgstr "Sie sehen eine Tischreservation die als %s markiert worden ist."
+msgstr "Sie sehen eine Tischreservation die als %s markiert wurde."
 
 #: includes/WP_List_Table.BookingsTable.class.php:696
 #, c-format
 msgctxt "Notification of booking date range, eg - bookings from 2014-12-02-2014-12-05"
 msgid "Only bookings from %s are being shown."
-msgstr "Es werden nur Tischreservationen in der Zeitspanne %s angezeigt."
+msgstr "Es werden nur Tischreservationen innerhalb %s angezeigt."
